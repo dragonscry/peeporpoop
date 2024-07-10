@@ -12,6 +12,8 @@
 		9A98109C2C3E8D4700CD5166 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A98109B2C3E8D4700CD5166 /* Item.swift */; };
 		9A98109E2C3E8D4800CD5166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A98109D2C3E8D4800CD5166 /* Assets.xcassets */; };
 		9A9810A12C3E8D4800CD5166 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9810A02C3E8D4800CD5166 /* Preview Assets.xcassets */; };
+		9A9810A82C3E8D8A00CD5166 /* PeepMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9810A72C3E8D8A00CD5166 /* PeepMap.swift */; };
+		9A9810AA2C3EA59900CD5166 /* PeepButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9810A92C3EA59900CD5166 /* PeepButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9A98109B2C3E8D4700CD5166 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9A98109D2C3E8D4800CD5166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A9810A02C3E8D4800CD5166 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A9810A72C3E8D8A00CD5166 /* PeepMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeepMap.swift; sourceTree = "<group>"; };
+		9A9810A92C3EA59900CD5166 /* PeepButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeepButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				9A9810972C3E8D4700CD5166 /* PeepOrPoopApp.swift */,
 				9A9810992C3E8D4700CD5166 /* ContentView.swift */,
+				9A9810A72C3E8D8A00CD5166 /* PeepMap.swift */,
+				9A9810A92C3EA59900CD5166 /* PeepButton.swift */,
 				9A98109B2C3E8D4700CD5166 /* Item.swift */,
 				9A98109D2C3E8D4800CD5166 /* Assets.xcassets */,
 				9A98109F2C3E8D4800CD5166 /* Preview Content */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A9810A82C3E8D8A00CD5166 /* PeepMap.swift in Sources */,
+				9A9810AA2C3EA59900CD5166 /* PeepButton.swift in Sources */,
 				9A98109A2C3E8D4700CD5166 /* ContentView.swift in Sources */,
 				9A98109C2C3E8D4700CD5166 /* Item.swift in Sources */,
 				9A9810982C3E8D4700CD5166 /* PeepOrPoopApp.swift in Sources */,
@@ -279,6 +287,7 @@
 				DEVELOPMENT_TEAM = 48RSDSQJLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +317,7 @@
 				DEVELOPMENT_TEAM = 48RSDSQJLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
