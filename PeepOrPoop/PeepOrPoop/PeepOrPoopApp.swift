@@ -25,7 +25,7 @@ struct PeepOrPoopApp: App {
 
     var body: some Scene {
         WindowGroup {
-            PeepMap()
+            MapContentView()
         }
         .modelContainer(sharedModelContainer)
     }

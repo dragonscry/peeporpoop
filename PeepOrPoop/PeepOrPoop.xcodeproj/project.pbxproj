@@ -14,6 +14,15 @@
 		9A9810A12C3E8D4800CD5166 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9810A02C3E8D4800CD5166 /* Preview Assets.xcassets */; };
 		9A9810A82C3E8D8A00CD5166 /* PeepMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9810A72C3E8D8A00CD5166 /* PeepMap.swift */; };
 		9A9810AA2C3EA59900CD5166 /* PeepButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9810A92C3EA59900CD5166 /* PeepButton.swift */; };
+		9AF7ECA52C47B0DE006742EF /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7ECA42C47B0DE006742EF /* CustomAnnotation.swift */; };
+		9AF7ECA72C47B253006742EF /* CustomCluster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7ECA62C47B253006742EF /* CustomCluster.swift */; };
+		9AF7ECA92C47E73E006742EF /* PeepMapRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7ECA82C47E73E006742EF /* PeepMapRepresentable.swift */; };
+		9AF7ECAE2C47E92A006742EF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7ECAD2C47E92A006742EF /* LocationManager.swift */; };
+		9AF7ECB02C47EF66006742EF /* ListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7ECAF2C47EF66006742EF /* ListButton.swift */; };
+		9AF7ECB62C480562006742EF /* AnnotationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7ECB52C480562006742EF /* AnnotationModel.swift */; };
+		9AF7ECB82C48058D006742EF /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7ECB72C48058D006742EF /* MapViewModel.swift */; };
+		9AF7ECBA2C48062E006742EF /* MapContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7ECB92C48062E006742EF /* MapContentView.swift */; };
+		9AF7ECBC2C480650006742EF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF7ECBB2C480650006742EF /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +34,15 @@
 		9A9810A02C3E8D4800CD5166 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A9810A72C3E8D8A00CD5166 /* PeepMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeepMap.swift; sourceTree = "<group>"; };
 		9A9810A92C3EA59900CD5166 /* PeepButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeepButton.swift; sourceTree = "<group>"; };
+		9AF7ECA42C47B0DE006742EF /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		9AF7ECA62C47B253006742EF /* CustomCluster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCluster.swift; sourceTree = "<group>"; };
+		9AF7ECA82C47E73E006742EF /* PeepMapRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeepMapRepresentable.swift; sourceTree = "<group>"; };
+		9AF7ECAD2C47E92A006742EF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		9AF7ECAF2C47EF66006742EF /* ListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListButton.swift; sourceTree = "<group>"; };
+		9AF7ECB52C480562006742EF /* AnnotationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationModel.swift; sourceTree = "<group>"; };
+		9AF7ECB72C48058D006742EF /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		9AF7ECB92C48062E006742EF /* MapContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContentView.swift; sourceTree = "<group>"; };
+		9AF7ECBB2C480650006742EF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +75,10 @@
 		9A9810962C3E8D4700CD5166 /* PeepOrPoop */ = {
 			isa = PBXGroup;
 			children = (
+				9AF7ECB12C480526006742EF /* byChatGPT */,
+				9AF7ECAB2C47E906006742EF /* Managers */,
+				9AF7ECAA2C47E8E7006742EF /* Views */,
 				9A9810972C3E8D4700CD5166 /* PeepOrPoopApp.swift */,
-				9A9810992C3E8D4700CD5166 /* ContentView.swift */,
-				9A9810A72C3E8D8A00CD5166 /* PeepMap.swift */,
-				9A9810A92C3EA59900CD5166 /* PeepButton.swift */,
 				9A98109B2C3E8D4700CD5166 /* Item.swift */,
 				9A98109D2C3E8D4800CD5166 /* Assets.xcassets */,
 				9A98109F2C3E8D4800CD5166 /* Preview Content */,
@@ -74,6 +92,63 @@
 				9A9810A02C3E8D4800CD5166 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AF7ECAA2C47E8E7006742EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AF7ECA62C47B253006742EF /* CustomCluster.swift */,
+				9AF7ECA42C47B0DE006742EF /* CustomAnnotation.swift */,
+				9A9810A92C3EA59900CD5166 /* PeepButton.swift */,
+				9A9810A72C3E8D8A00CD5166 /* PeepMap.swift */,
+				9AF7ECA82C47E73E006742EF /* PeepMapRepresentable.swift */,
+				9A9810992C3E8D4700CD5166 /* ContentView.swift */,
+				9AF7ECAF2C47EF66006742EF /* ListButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AF7ECAB2C47E906006742EF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9AF7ECAD2C47E92A006742EF /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		9AF7ECB12C480526006742EF /* byChatGPT */ = {
+			isa = PBXGroup;
+			children = (
+				9AF7ECB42C480543006742EF /* ViewModel */,
+				9AF7ECB32C48053C006742EF /* Model */,
+				9AF7ECB22C480536006742EF /* View */,
+			);
+			path = byChatGPT;
+			sourceTree = "<group>";
+		};
+		9AF7ECB22C480536006742EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AF7ECB92C48062E006742EF /* MapContentView.swift */,
+				9AF7ECBB2C480650006742EF /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9AF7ECB32C48053C006742EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AF7ECB52C480562006742EF /* AnnotationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AF7ECB42C480543006742EF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9AF7ECB72C48058D006742EF /* MapViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,11 +221,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF7ECBA2C48062E006742EF /* MapContentView.swift in Sources */,
+				9AF7ECB62C480562006742EF /* AnnotationModel.swift in Sources */,
 				9A9810A82C3E8D8A00CD5166 /* PeepMap.swift in Sources */,
+				9AF7ECA92C47E73E006742EF /* PeepMapRepresentable.swift in Sources */,
 				9A9810AA2C3EA59900CD5166 /* PeepButton.swift in Sources */,
 				9A98109A2C3E8D4700CD5166 /* ContentView.swift in Sources */,
 				9A98109C2C3E8D4700CD5166 /* Item.swift in Sources */,
+				9AF7ECBC2C480650006742EF /* MapView.swift in Sources */,
 				9A9810982C3E8D4700CD5166 /* PeepOrPoopApp.swift in Sources */,
+				9AF7ECA72C47B253006742EF /* CustomCluster.swift in Sources */,
+				9AF7ECB02C47EF66006742EF /* ListButton.swift in Sources */,
+				9AF7ECA52C47B0DE006742EF /* CustomAnnotation.swift in Sources */,
+				9AF7ECAE2C47E92A006742EF /* LocationManager.swift in Sources */,
+				9AF7ECB82C48058D006742EF /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +371,7 @@
 				DEVELOPMENT_TEAM = 48RSDSQJLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please Allow us to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -317,7 +401,7 @@
 				DEVELOPMENT_TEAM = 48RSDSQJLU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please Allow us to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
